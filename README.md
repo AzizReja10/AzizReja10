@@ -18,7 +18,7 @@ Backend-focused software engineer, moving into AI / agentic engineering.<br/>
 ### 🚀 About Me
 
 - 🎓 B.E. student at **Jadavpur University** (2024–2028)
-- 🛠️ Backend foundation in **Java, Spring Boot, PostgreSQL**, with hands-on **Docker, Kafka, and microservices architecture**
+- 🛠️ Backend foundation in **Java, Spring Boot, PostgreSQL**, with hands-on **Docker, Kafka, Redis, and microservices architecture**
 - 🤖 Currently building toward **agentic AI engineering** — LangChain, LangGraph, tool-calling agents
 - 🏆 **Top 13%** on LeetCode — 1700+ contest rating, 500+ problems solved
 - 🔭 Actively looking for **SDE / Backend internship** opportunities
@@ -35,7 +35,7 @@ Backend-focused software engineer, moving into AI / agentic engineering.<br/>
 
 **AI / LLM:** ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square)
 
-**Database:** ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+**Database:** ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 **Tools:** ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
@@ -46,7 +46,7 @@ Backend-focused software engineer, moving into AI / agentic engineering.<br/>
 | Project | What it does | Stack |
 |---|---|---|
 | [**AI Agent Chatbot**](https://github.com/AzizReja10/ai-agent-chatbot) | Multi-user, multi-tool AI agent that drafts and executes actions across 7 tools / 4 auth patterns, with a human-in-the-loop confirmation layer before any irreversible action | LangChain · FastAPI · OAuth · React · PostgreSQL |
-| [**AI Resume Builder**](https://github.com/AzizReja10/ai-resume-builder-backend) | JWT-secured resume CRUD platform that auto-generates ATS-friendly PDF resumes and pulls project entries straight from GitHub repo metadata | FastAPI · PostgreSQL · Groq API · ReportLab |
+| [**Ticket Booking System**](https://github.com/AzizReja10/Ticket-Booking) | High-concurrency flash-sale booking engine with zero overselling, using atomic Redis Lua scripts for inventory gating, TTL seat holds with automated reaper sweeps, and distributed locking | Spring Boot · Redis · PostgreSQL · Docker · Nginx |
 | [**Food Delivery Microservices**](https://github.com/AzizReja10/food-delivery-microservice) | Event-driven microservices platform with Kafka-based order processing, Eureka service discovery, and OpenFeign for inter-service calls | Spring Boot · Kafka · Docker · PostgreSQL |
 
 ---
